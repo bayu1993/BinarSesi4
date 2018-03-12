@@ -21,28 +21,24 @@ public class Mahasiswa {
         choice = scanner.nextInt();
     }
 
-    public int additionOperator(int num1, int num2){
+    public void additionOperator(int num1, int num2){
         int hasil = num1 + num2;
         System.out.println(num1 +" + "+num2+" = "+hasil);
-        return hasil;
     }
 
-    public int subractionOperator(int num1, int num2){
+    public void subractionOperator(int num1, int num2){
         int hasil = num1 - num2;
         System.out.println(num1 +" - "+num2+" = "+hasil);
-        return hasil;
     }
 
-    public int multiplicationOperator(int num1, int num2){
+    public void multiplicationOperator(int num1, int num2){
         int hasil = num1 * num2;
         System.out.println(num1 +" x "+num2+" = "+hasil);
-        return hasil;
     }
 
-    public double divisionOperator(int num1, int num2){
+    public void divisionOperator(int num1, int num2){
         double hasil = (double) num1 / num2;
         System.out.println(num1 +" / "+num2+" = "+hasil);
-        return hasil;
     }
 
 }
