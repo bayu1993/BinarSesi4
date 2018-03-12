@@ -1,14 +1,16 @@
+import model.CalculatorModel;
+
 import java.util.Scanner;
 
 public class Calculator {
-
+    CalculatorModel modelData = new CalculatorModel();
     public void printCalculator(){
         Scanner scanner = new Scanner(System.in);
         try{
             System.out.print("Nilai 1 : ");
-            int num1 = scanner.nextInt();
+            modelData.setNum1(scanner.nextInt());
             System.out.print("Nilai 2 : ");
-            int num2 = scanner.nextInt();
+            modelData.setNum2(scanner.nextInt());
             System.out.println("Pilih Operator :");
             System.out.println("1. Penambahan");
             System.out.println("2. Pengurangan");
@@ -16,6 +18,8 @@ public class Calculator {
             System.out.println("4. Pembagian");
             System.out.print("Pilihan :");
             int choice = scanner.nextInt();
+            int num1 = modelData.getNum1();
+            int num2 = modelData.getNum2();
             hitung(num1, num2, choice);
         }catch (Exception ex){
             System.out.println("Error, Input data harus bilangan bulat ");
