@@ -70,7 +70,7 @@ public class LiftImpl implements BaseLift{
                 print("Thanks");
                 break;
             default:
-                errorHandling("Y/N");
+                errorHandling("confirm");
                 userConfirm();
         }
     }
@@ -86,7 +86,7 @@ public class LiftImpl implements BaseLift{
                 System.out.println("Error.. hanya bisa diinputkan number, silahkan coba lagi");
                 new LiftApps();
                 break;
-            case "Y/N":
+            case "confirm":
                 System.out.println("Silahkan inputkan Y atau N tidak ada yang lain");
                 break;
         }
