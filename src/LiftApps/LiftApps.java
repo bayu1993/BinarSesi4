@@ -2,11 +2,12 @@ package LiftApps;
 
 import java.util.Scanner;
 
-public class LiftApps  {
+public class LiftApps implements BaseView{
+
+    Scanner scanner = new Scanner(System.in);
+    LiftModel model = new LiftModel();
+    BaseLift lift = new LiftImpl(this);
     public LiftApps(){
-        Scanner scanner = new Scanner(System.in);
-        LiftModel model = new LiftModel();
-        LiftImpl lift = new LiftImpl();
         try {
             System.out.print("Posisi anda ada di lantai berapa : ");
             model.setCurrent(scanner.nextInt());
@@ -18,5 +19,10 @@ public class LiftApps  {
        }catch (Exception e){
            lift.errorHandling("number");
        }
+    }
+
+    @Override
+    public void print(String msg) {
+        System.out.println(msg);
     }
 }

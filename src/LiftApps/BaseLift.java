@@ -11,8 +11,6 @@ public interface BaseLift {
 
     void goDown(int current, int goal);
 
-    void print(String msg);
-
     void userConfirm();
 
     void errorHandling(String error);

@@ -4,6 +4,11 @@ import java.util.Scanner;
 
 public class LiftImpl implements BaseLift{
 
+    private BaseView view;
+    public LiftImpl (BaseView view){
+        this.view = view;
+    }
+
     @Override
     public void cekCurrentPosition(int current) {
         if(current < 1 || current >20){
@@ -27,7 +32,7 @@ public class LiftImpl implements BaseLift{
         }else if(current < goal){
             goUp(current,goal);
         }else {
-            print("Anda sudah berada di lantai "+current);
+            view.print("Anda sudah berada di lantai "+current);
             userConfirm();
         }
     }
@@ -35,31 +40,26 @@ public class LiftImpl implements BaseLift{
     @Override
     public void goUp(int current, int goal) {
         for (int i = current; i<=goal; i++){
-            print("Sekarang kamu sedang berada ke lantai "+i);
+            view.print("Sekarang kamu sedang berada ke lantai "+i);
         }
-        print("\n");
-        print("sekarang kamu sudah berada di lantai "+goal);
+        view.print("\n");
+        view.print("sekarang kamu sudah berada di lantai "+goal);
         userConfirm();
     }
 
     @Override
     public void goDown(int current, int goal) {
         for (int i = current; i>=goal; i--){
-            print("Sekarang kamu sedang berada ke lantai "+i);
+            view.print("Sekarang kamu sedang berada ke lantai "+i);
         }
-        print("\n");
-        print("sekarang kamu sudah berada di lantai "+goal);
+        view.print("\n");
+        view.print("sekarang kamu sudah berada di lantai "+goal);
         userConfirm();
     }
 
     @Override
-    public void print(String msg) {
-        System.out.println(msg);
-    }
-
-    @Override
     public void userConfirm() {
-        print("Apakah kamu akan naik lift lagi (Y/N)");
+        view.print("Apakah kamu akan naik lift lagi (Y/N)");
         Scanner scanner = new Scanner(System.in);
         String answer = scanner.next();
         switch (answer){
@@ -67,11 +67,12 @@ public class LiftImpl implements BaseLift{
                 new LiftApps();
                 break;
             case "N":
-                print("Thanks");
+                view.print("Thanks");
                 break;
             default:
                 errorHandling("confirm");
                 userConfirm();
+                break;
         }
     }
 
@@ -79,15 +80,15 @@ public class LiftImpl implements BaseLift{
     public void errorHandling(String error) {
         switch (error) {
             case "input":
-                System.out.println("Error.. Salah input number hanya bisa diinputkan 1 - 20, silahkan coba lagi");
+                view.print("Error.. Salah input number hanya bisa diinputkan 1 - 20, silahkan coba lagi");
                 new LiftApps();
                 break;
             case "number":
-                System.out.println("Error.. hanya bisa diinputkan number, silahkan coba lagi");
+                view.print("Error.. hanya bisa diinputkan number, silahkan coba lagi");
                 new LiftApps();
                 break;
             case "confirm":
-                System.out.println("Silahkan inputkan Y atau N tidak ada yang lain");
+                view.print("Silahkan inputkan Y atau N tidak ada yang lain");
                 break;
         }
     }
