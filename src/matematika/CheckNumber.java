@@ -1,4 +1,4 @@
-package Matematika;
+package matematika;
 
 public class CheckNumber implements CheckNumberInterface{
 

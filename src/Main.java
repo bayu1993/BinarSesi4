@@ -1,4 +1,4 @@
-import LiftApps.LiftApps;
+import liftApps.LiftApps;
 
 public class Main {
     public static void main(String[] args) {

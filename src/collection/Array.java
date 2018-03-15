@@ -1,4 +1,4 @@
-package Collection;
+package collection;
 
 public class Array {
     public void angka(){

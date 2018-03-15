@@ -1,4 +1,4 @@
-package LiftApps;
+package liftApps;
 
 import java.util.Scanner;
 

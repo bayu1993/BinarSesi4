@@ -1,4 +1,4 @@
-package Inheritance;
+package inheritance;
 
 public abstract class Kendaraan {
     String merk,warna;

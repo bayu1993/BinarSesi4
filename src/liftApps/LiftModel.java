@@ -1,4 +1,4 @@
-package LiftApps;
+package liftApps;
 
 public class LiftModel {
     private int current;

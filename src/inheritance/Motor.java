@@ -1,4 +1,4 @@
-package Inheritance;
+package inheritance;
 
 public class Motor implements KendaraanRodaDua{
     @Override
