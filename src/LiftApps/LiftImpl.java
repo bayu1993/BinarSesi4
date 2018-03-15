@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class LiftImpl implements BaseLift{
 
     private BaseView view;
-    public LiftImpl (BaseView view){
+    LiftImpl(BaseView view){
         this.view = view;
     }
 

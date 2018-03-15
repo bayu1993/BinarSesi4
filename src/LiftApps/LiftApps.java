@@ -4,10 +4,11 @@ import java.util.Scanner;
 
 public class LiftApps implements BaseView{
 
-    Scanner scanner = new Scanner(System.in);
-    LiftModel model = new LiftModel();
-    BaseLift lift = new LiftImpl(this);
     public LiftApps(){
+        Scanner scanner = new Scanner(System.in);
+
+        BaseLift lift = new LiftImpl(this);
+        LiftModel model = new LiftModel();
         try {
             System.out.print("Posisi anda ada di lantai berapa : ");
             model.setCurrent(scanner.nextInt());
@@ -15,7 +16,7 @@ public class LiftApps implements BaseView{
             System.out.print("Tujuan anda ke lantai berapa : ");
             model.setGoal(scanner.nextInt());
             lift.cekGoalPosition(model.getGoal());
-            lift.cekPosition(model.getCurrent(),model.getGoal());
+            lift.cekPosition(model.getCurrent(), model.getGoal());
        }catch (Exception e){
            lift.errorHandling("number");
        }
