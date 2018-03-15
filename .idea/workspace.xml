@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89497466-056d-45c9-9c1d-2c1bea2244ce" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Collection/Array.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Inheritance/Kendaraan.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Inheritance/KendaraanRodaDua.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Inheritance/Mobil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Inheritance/Motor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/LiftApps/BaseLift.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/LiftApps/LiftApps.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/LiftApps/LiftImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Looping.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Matematika/CheckNumber.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Matematika/CheckNumberInterface.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Matematika/TebakAngka.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/model/MahasiswaModel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BinarSesi4/Main.class" afterPath="$PROJECT_DIR$/out/production/BinarSesi4/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main.java" afterPath="$PROJECT_DIR$/src/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/LiftApps/LiftApps.java" afterPath="$PROJECT_DIR$/src/LiftApps/LiftApps.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,11 +14,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LiftApps.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <folding>
+                <marker date="1521081043067" expanded="false" signature="317:336" ph=" { " />
+                <marker date="1521081043067" expanded="false" signature="364:378" ph=" }" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LiftApps.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LiftApps/LiftApps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="16" column="39" lean-forward="true" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+            <state relative-caret-position="162">
+              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -42,9 +40,12 @@
       <file leaf-file-name="LiftImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LiftApps/LiftImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="15" lean-forward="true" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="15" />
-              <folding />
+            <state relative-caret-position="214">
+              <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+              <folding>
+                <element signature="e#1395#1396#0" expanded="true" />
+                <element signature="e#1434#1435#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -327,16 +328,15 @@
       <workItem from="1521008834792" duration="5705000" />
       <workItem from="1521032105472" duration="5820000" />
       <workItem from="1521046121732" duration="7624000" />
-      <workItem from="1521080332683" duration="2532000" />
+      <workItem from="1521080332683" duration="3284000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46532000" />
+    <option name="totallyTimeSpent" value="47284000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="39" width="1366" height="729" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -347,7 +347,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328125" sideWeight="0.5030581" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.328125" sideWeight="0.4969419" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.328125" sideWeight="0.4969419" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33333334" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -445,8 +445,16 @@
           </properties>
           <option name="timeStamp" value="23" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/LiftApps/LiftImpl.java</url>
+          <line>78</line>
+          <properties class="LiftApps.LiftImpl" method="errorHandling">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="35" />
+      <option name="time" value="36" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -456,7 +464,6 @@
         <state relative-caret-position="45">
           <caret line="3" column="25" lean-forward="false" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
           <folding>
-            <element signature="imports" expanded="true" />
             <marker date="1521081043067" expanded="false" signature="317:336" ph=" { " />
             <marker date="1521081043067" expanded="false" signature="364:378" ph=" }" />
           </folding>
@@ -467,7 +474,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="44" lean-forward="false" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
-          <folding />
+          <folding>
+            <element signature="e#1395#1396#0" expanded="true" />
+            <element signature="e#1434#1435#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -567,7 +577,6 @@
         <state relative-caret-position="600">
           <caret line="42" column="25" lean-forward="false" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
           <folding>
-            <element signature="imports" expanded="true" />
             <marker date="1521081043067" expanded="false" signature="317:336" ph=" { " />
             <marker date="1521081043067" expanded="false" signature="364:378" ph=" }" />
           </folding>
@@ -600,7 +609,6 @@
         <state relative-caret-position="60">
           <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
             <marker date="1521081043067" expanded="false" signature="317:336" ph=" { " />
             <marker date="1521081043067" expanded="false" signature="364:378" ph=" }" />
           </folding>
@@ -626,7 +634,6 @@
         <state relative-caret-position="195">
           <caret line="13" column="31" lean-forward="false" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
           <folding>
-            <element signature="imports" expanded="true" />
             <marker date="1521081043067" expanded="false" signature="317:336" ph=" { " />
             <marker date="1521081043067" expanded="false" signature="364:378" ph=" }" />
           </folding>
@@ -652,7 +659,6 @@
         <state relative-caret-position="45">
           <caret line="3" column="37" lean-forward="true" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
           <folding>
-            <element signature="imports" expanded="true" />
             <marker date="1521081043067" expanded="false" signature="317:336" ph=" { " />
             <marker date="1521081043067" expanded="false" signature="364:378" ph=" }" />
           </folding>
@@ -678,7 +684,6 @@
         <state relative-caret-position="435">
           <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
             <marker date="1521081043067" expanded="false" signature="317:336" ph=" { " />
             <marker date="1521081043067" expanded="false" signature="364:378" ph=" }" />
           </folding>
@@ -757,18 +762,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="25" lean-forward="false" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1521081043067" expanded="false" signature="317:336" ph=" { " />
-            <marker date="1521081043067" expanded="false" signature="364:378" ph=" }" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Matematika/CheckNumber.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -803,17 +796,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LiftApps/LiftImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="15" lean-forward="true" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="15" />
-          <folding />
+        <state relative-caret-position="214">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding>
+            <element signature="e#1395#1396#0" expanded="true" />
+            <element signature="e#1434#1435#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LiftApps/LiftApps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="16" column="39" lean-forward="true" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+        <state relative-caret-position="162">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <marker date="1521081043067" expanded="false" signature="317:336" ph=" { " />
+            <marker date="1521081043067" expanded="false" signature="364:378" ph=" }" />
+          </folding>
         </state>
       </provider>
     </entry>
